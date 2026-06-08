@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axiom | Decentralized Reputation Network</title>
+    <title>Axiom</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -11,28 +11,51 @@
             color: #111111;
             margin: 0;
             display: flex;
-            align-items: center;
             justify-content: center;
             min-height: 100vh;
-            text-align: center;
         }
         .container {
-            max-width: 600px;
-            padding: 40px 20px;
+            max-width: 680px;
+            width: 100%;
+            padding: 80px 24px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
         }
         h1 {
-            font-size: 2.5rem;
+            font-size: 1.65rem;
             font-weight: 700;
-            margin-bottom: 10px;
-            letter-spacing: -0.05em;
+            margin-top: 0;
+            margin-bottom: 2rem;
+            letter-spacing: -0.02em;
         }
-        p {
-            font-size: 1.125rem;
-            line-height: 1.6;
-            color: #666666;
-            margin-bottom: 30px;
+        p, li {
+            font-size: 1.15rem;
+            line-height: 1.65;
+            margin-top: 0;
+            margin-bottom: 1.8rem;
+        }
+        ul {
+            margin-top: 0;
+            margin-bottom: 1.8rem;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 1rem;
+        }
+        li::marker {
+            color: #111111;
+        }
+        a {
+            color: #111111;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+        a:hover {
+            color: #444444;
         }
         .btn {
+            align-self: flex-start;
             display: inline-block;
             background-color: #111111;
             color: #ffffff;
@@ -40,18 +63,56 @@
             padding: 12px 24px;
             font-weight: 500;
             border-radius: 6px;
+            margin-top: 1rem;
+            margin-bottom: 4rem;
             transition: background-color 0.2s ease;
         }
         .btn:hover {
             background-color: #333333;
+            color: #ffffff;
+        }
+        .footer {
+            margin-top: auto;
+            font-size: 0.95rem;
+            color: #666666;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Axiom</h1>
-        <p>A Decentralized Global Reputation Network designed to replace money and coordinate resource distribution.</p>
+        
+        <p>Building a decentralized global reputation network to replace money is the most important socio-technical problem of our time.</p>
+        
+        <p>The paper is available at:<br>
+        <a href="https://provensuccess.org/Axiom_Whitepaper_DelaRama_2026.pdf" target="_blank">https://provensuccess.org/Axiom_Whitepaper_DelaRama_2026.pdf</a></p>
+        
+        <p><strong>The main properties:</strong></p>
+        <ul>
+            <li>Value hoarding is prevented by replacing money with decaying, non-transferable reputation.</li>
+            <li>No central databases or trusted third parties are required for identity or transactions.</li>
+            <li>Participants are verified as unique humans via a peer-to-peer Web of Trust.</li>
+            <li>Reputation is minted directly from verified physical and digital workflows.</li>
+            <li>Earned reputation dynamically determines access to shared physical assets via automated smart locks.</li>
+        </ul>
+        
+        <p><strong>Why are we building this?</strong></p>
+        
+        <p>Because no matter what other human invention is made, like artificial general intelligence or even artificial superintelligence, not everyone would be able to fully enjoy those inventions because of the traditional economic models of society that rely on money as an extractive medium of exchange.</p>
+        
+        <p>Axiom’s architecture programmatically de-escalates systemic exploitation, allowing individuals to achieve true self-ownership and access resources based on active contribution within the physical limits of their ecosystem.</p>
+        
+        <p>We are assembling a lean, cracked team of the world’s best engineers and researchers dedicated to focusing on Axiom and nothing else.</p>
+        
+        <p>If that’s you, we offer an opportunity to do your life’s work and help solve the most important socio-technical challenge of our age.</p>
+        
+        <p>Now is the time. Join us.</p>
+        
         <a href="/Axiom_Whitepaper_DelaRama_2026.pdf" class="btn" target="_blank">Read the Whitepaper</a>
+        
+        <div class="footer">
+            &copy; 2026
+        </div>
     </div>
 </body>
 </html>
